@@ -1,4 +1,7 @@
 # active-iommu-proxmox
+
+START
+
 <br>
 nano /etc/default/grub
 <br>
@@ -7,3 +10,5 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet" > GRUB_CMDLINE_LINUX_DEFAULT="quiet intel_iom
 update-grub
 <br>
 reboot
+
+END
